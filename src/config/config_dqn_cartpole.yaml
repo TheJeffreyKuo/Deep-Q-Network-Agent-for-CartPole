@@ -1,0 +1,12 @@
+env_id: CartPole-v1
+gamma: 0.99
+epsilon_start: 1.0
+epsilon_end: 0.05
+epsilon_decay: 500
+learning_rate: 1.0e-3
+batch_size: 64
+buffer_size: 10000
+target_update: 10
+hidden_dim: 128
+total_timesteps: 100000
+eval_episodes: 10
