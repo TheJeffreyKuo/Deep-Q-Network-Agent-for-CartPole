@@ -10,3 +10,5 @@ target_update: 10
 hidden_dim: 128
 total_timesteps: 100000
 eval_episodes: 10
+render_mode: "human"
+render_final: true
